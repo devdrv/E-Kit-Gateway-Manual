@@ -4,16 +4,31 @@
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <div style="text-align: center;">
 <h1> E-Kit EnOcean IoT ゲートウェイ 取扱説明書</h1>
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
 <img src="img/eogw.jpg" alt="E-Kit EnOcean IoT ゲートウェイ" />
-<br/>
-<br/>
-<br/>
 </div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
