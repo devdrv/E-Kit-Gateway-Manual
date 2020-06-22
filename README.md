@@ -26,11 +26,10 @@ https://devdrv.github.io/E-Kit-Gateway-Manual/</a>
 
 <div style="page-break-before:always"></div>
 
-### 目次
+## 目次
 
 <!-- TOC -->
 
-	- [目次](#目次)
 - [1. はじめに](#1-はじめに)
 	- [1.1. 安全上のご注意](#11-安全上のご注意)
 	- [1.2. 製品概要](#12-製品概要)
