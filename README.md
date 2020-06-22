@@ -1,7 +1,22 @@
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <div style="text-align: center;">
 <h1> E-Kit EnOcean IoT ゲートウェイ 取扱説明書</h1>
+<br/>
+<br/>
+<br/>
 <img src="img/eogw.jpg" alt="E-Kit EnOcean IoT ゲートウェイ" />
+<br/>
+<br/>
+<br/>
 </div>
+<br/>
+<br/>
+<br/>
 <div style="text-align: right;">
 株式会社デバイスドライバーズ<br/>
 2020年6月22日 第2版<br/>
@@ -9,8 +24,13 @@
 https://devdrv.github.io/E-Kit-Gateway-Manual/</a>
 </div>
 
+<div style="page-break-before:always"></div>
+
+### 目次
+
 <!-- TOC -->
 
+	- [目次](#目次)
 - [1. はじめに](#1-はじめに)
 	- [1.1. 安全上のご注意](#11-安全上のご注意)
 	- [1.2. 製品概要](#12-製品概要)
@@ -51,6 +71,8 @@ https://devdrv.github.io/E-Kit-Gateway-Manual/</a>
 - [5. サポートと保証](#5-サポートと保証)
 
 <!-- /TOC -->
+
+<div style="page-break-before:always"></div>
 
 ## 1. はじめに
 
