@@ -355,13 +355,19 @@ E-Kit EnOcean ゲートウェイに登録されたEnOceanデバイス（各種�
 
 - DataHub ローカル接続
 
-	iBRESS ETKの設定で「組織ID」/「User name」,「Password」を設定せずに「空」とした場合には、SSHとWebSocketを使用しない、DataHub 用のオープンな接続モードで動作します。DataHubにローカル接続する場合はこの設定を使用します。
+	iBRESS ETKの設定で「組織ID」/「User name」,「Password」を設定せずに「空」とした場合には、SSHとWebSocketを使用しない、DataHub 用のオープンな接続モードで動作します。DataHubにローカル接続する場合はこの設定を使用します。HostにはIPアドレスを指定することも可能です。
+
+- 停止
+
+	Host 項目を空（何も入力されてない状態）に設定して「実行」ボタンをクリックした場合は、iBRESS / ETK 用転送動作を停止します。
 
 **なお設定内容が間違っている場合、あるいは設定完了時に接続先のiBRESSサーバーに接続できない場合には、通信プログラムのETKが起動しないので、注意してください。**
 
 ### 3.4. Azure IoT Hub 設定
 
 機能選択ラジオボタンの「Microsoft Azure」をクリックして、Microsoft Azure IoT Hub の設定を行います。基本的な設定は、接続する IoT Hub の **iothubowner** 権限を持つ **CS (Connection String)** だけです。Connection Stding は入力した最後の5文字だけが表示されます。
+
+Connection Stding を空に設定して「実行」ボタンをクリックした場合は、 Azure IoT Hub への転送を停止します。
 
 **Data Domain** の項目は、Azure IoT Hub には定義されていませんが **Device ID** のプレフィックスを指定します。これは運用上、データポイント名を他の ETK や OPC UA 接続サービスと同様にするための互換性を保つために使用します。プレフィックス（デバイスIDの前に付加する特定の文字列）が必要なければ、空のままとしておきます。その場合、ゲートウェイで自動付加したデータポイント名をそのまま **Device ID** として使用します。
 
@@ -376,6 +382,8 @@ E-Kit EnOcean ゲートウェイに登録されたEnOceanデバイス（各種�
 
 機能選択ラジオボタンの「OPC UA」をクリックして、OPC UAサーバーの設定を行います。設定はサーバーのPort番号とデータDomain名だけです。「実行」ボタンをクリックして設定が完了し、OPC UAサーバーが再起動します。
 この設定した内容は保存され、ゲートウェイの再起動時には設定した内容で、自動的にOPC UAサーバーを開始します。
+
+Port番号を空に設定して「実行」ボタンをクリックした場合は、OPC UAサーバー動作を停止します。
 
 <div style="text-align: center;">
 <img src="img/C5.png" alt="OPC UAサーバー設定" width="65%"/><br/>
